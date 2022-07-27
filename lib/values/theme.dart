@@ -6,9 +6,9 @@ class MyTheme {
   static TextStyle appBar = TextStyle(
       fontSize: 14, fontWeight: FontWeight.bold, color: MyColors.secondary);
 
-  static TextStyle title = TextStyle(
+  static TextStyle shortTitle = TextStyle(
       fontSize: 28, fontWeight: FontWeight.bold, color: MyColors.blue);
 
-  static TextStyle titl = TextStyle(
+  static TextStyle longTitle = TextStyle(
       fontSize: 20, fontWeight: FontWeight.bold, color: MyColors.blue);
 }

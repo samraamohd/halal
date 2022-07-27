@@ -4,7 +4,7 @@ import 'package:get/get_core/src/get_main.dart';
 import 'package:halal/values/my_colors.dart';
 import 'package:halal/values/theme.dart';
 
-import 'app_bar_widget.dart';
+import '../widgets/app_bar_widget.dart';
 
 // ignore: camel_case_types
 class Sign_in extends StatefulWidget {
@@ -31,7 +31,7 @@ class _Sign_inState extends State<Sign_in> {
           ),
           Text(
             'welcome back !',
-            style: MyTheme.title,
+            style: MyTheme.shortTitle,
           ),
           /*Text(
             S.of(context).chooseYourLanguage,

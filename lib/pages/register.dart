@@ -3,16 +3,16 @@ import 'package:get/get.dart';
 import 'package:halal/values/my_colors.dart';
 import 'package:halal/values/theme.dart';
 
-import 'app_bar_widget.dart';
+import '../widgets/app_bar_widget.dart';
 
-class SignUp extends StatefulWidget {
-  const SignUp({Key? key}) : super(key: key);
+class Register extends StatefulWidget {
+  const Register({Key? key}) : super(key: key);
 
   @override
-  State<SignUp> createState() => _SignUpState();
+  State<Register> createState() => _RegisterState();
 }
 
-class _SignUpState extends State<SignUp> {
+class _RegisterState extends State<Register> {
   @override
   bool value = false;
   Widget _buildView(context) {
@@ -29,12 +29,20 @@ class _SignUpState extends State<SignUp> {
             'hello,',
           ),
           Text(
-            'Register as an individual',
-            style: MyTheme.titl,
+            'Register as an store',
+            style: MyTheme.longTitle,
           ),
           const TextField(
             decoration: InputDecoration(
                 labelText: 'Name',
+                labelStyle: TextStyle(
+                  color: Colors.black,
+                  fontSize: 15,
+                )),
+          ),
+          const TextField(
+            decoration: InputDecoration(
+                labelText: 'Store Name',
                 labelStyle: TextStyle(
                   color: Colors.black,
                   fontSize: 15,
@@ -86,7 +94,7 @@ class _SignUpState extends State<SignUp> {
           ),
           const TextField(
             decoration: InputDecoration(
-                labelText: 'ID Card',
+                labelText: 'Commercial Record',
                 suffixIcon: Icon(
                   Icons.camera_alt,
                   color: Colors.black12,
