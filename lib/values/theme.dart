@@ -10,5 +10,5 @@ class MyTheme {
       fontSize: 28, fontWeight: FontWeight.bold, color: MyColors.blue);
 
   static TextStyle titl = TextStyle(
-      fontSize: 20, fontWeight: FontWeight.bold, color: MyColors.blue);
+      fontSize: 16, fontWeight: FontWeight.bold, color: MyColors.blue);
 }
