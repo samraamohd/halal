@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:halal/app_bar_widget.dart';
 import 'package:halal/values/my_colors.dart';
+import 'package:halal/widgets/app_bar_widget.dart';
 
-class IndebTedness extends StatefulWidget {
-  const IndebTedness({Key? key}) : super(key: key);
+class Indebtedness extends StatefulWidget {
+  const Indebtedness({Key? key}) : super(key: key);
 
   @override
-  State<IndebTedness> createState() => _IndebTednessState();
+  State<Indebtedness> createState() => _IndebtednessState();
 }
 
-class _IndebTednessState extends State<IndebTedness> {
+class _IndebtednessState extends State<Indebtedness> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

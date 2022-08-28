@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:halal/pages/signup.dart';
+import 'package:halal/routes/pages.dart';
 import 'package:halal/widgets/custom_button.dart';
+
+import 'signup.dart';
 
 class Login extends StatefulWidget {
   const Login({Key? key}) : super(key: key);
@@ -55,7 +57,7 @@ class _LoginState extends State<Login> {
                     ),
                     Center(
                         child: TextButton(
-                            onPressed: () => Get.to(() => const SignUp()),
+                            onPressed: () => Get.toNamed(Pages.regist),
                             child: const Text(
                               'SIGN UP',
                               style: TextStyle(

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:halal/app_bar_widget.dart';
-import 'package:halal/values/btn_t.dart';
+import 'package:halal/widgets/app_bar_widget.dart';
+import 'package:halal/widgets/btn_t.dart';
 import 'package:halal/values/my_colors.dart';
 
 class Products extends StatefulWidget {

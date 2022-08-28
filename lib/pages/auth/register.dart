@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:halal/values/my_colors.dart';
 import 'package:halal/values/theme.dart';
+import 'package:halal/widgets/app_bar_widget.dart';
 
-import '../widgets/app_bar_widget.dart';
 
 class Register extends StatefulWidget {
   const Register({Key? key}) : super(key: key);
